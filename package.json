@@ -19,5 +19,8 @@
     "node": "~8.9.4",
     "npm": "~6.0.1"
   },
-  "homepage": "https://github.com/peter-doherty/shwrm#readme"
+  "homepage": "https://github.com/peter-doherty/shwrm#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }

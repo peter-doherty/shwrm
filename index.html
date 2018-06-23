@@ -14,8 +14,8 @@
 
 		<link rel="icon" type="image/png" href="images/landing/car-160115_640.png">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="assets/js/typed.js"></script>
 
-	  
 	</head>
 	<body class="is-preload">
 
@@ -30,12 +30,34 @@
 					<div class="d-flex text-center h-100">
 						<div class="my-auto w-100 text-white">
 							<h1 class="display-3">Showroom</h1>
-							<h2>Buy High-Specification Cars For Less Online</h2>
+							<!-- <h2>Buy High-Specification Cars For Less Online</h2> -->
+							
+							<div id="typed-strings">
+								<p>Buy High-Specification Cars For Less Online</p>
+								<p>Audi</p>
+								<p>BMW</p>
+								<p>Lexus</p>
+								<p>Mercedes</p>
+								<p>Range Rover</p>
+								<p>Tesla</p>
+							</div>
+							<span id="typed"></span>
+							<script>
+								var typed = new Typed('#typed', {
+									stringsElement: '#typed-strings',
+									loop: true,
+									startDelay: 500,
+									typeSpeed: 50,
+									backSpeed: 35
+								});
+							</script>
+							
 						</div>
 					</div>
 				</div>
 			</header>
 		</section>
+		
 			
 		<!-- <section id="hero">
 			<div class="box alt">
@@ -54,9 +76,9 @@
 						</div>
 						<div class="col-6 col-12-medium">
 							<!-- <header class="major"> -->
-								<h2>High Specification Cars</h2>
+								<h2>Find Your Ideal Car Quickly</h2>
 							<!-- </header> -->
-							<p>Browse the best range of cars available for import, easily.</p>
+							<p>Browse the best range of cars available, easily.</p>
 						</div>
 					</div>
 				</div>
@@ -267,7 +289,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 
 	</body>
 </html>

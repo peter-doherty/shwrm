@@ -13,40 +13,84 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
 		<link rel="icon" type="image/png" href="images/landing/car-160115_640.png">
-	  
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="assets/js/typed.js"></script>
+
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
-			<section id="header">
-				<div class="inner">
-					<!-- <span class="icon major fa-car"></span> -->
-					<h1>Showroom</h1>
-					<h3>Buy High-Performance Cars For Less Online</h3>
-					<ul class="actions special">
-						<li><a href="#hero" class="button scrolly">Discover</a></li>
-					</ul>
-					
-				</div>
-			</section>
-
-			<section id="hero">
-				<div class="box alt">
-					<div class="row gtr-uniform gtr-50">
-						<div class="col-12"><span class="image fit"><img src="images/hero-1.png" alt="" /></span></div>
+		<section id="hero">
+			<header>
+			<div class="overlay"></div>
+				<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+					<source src="images/videos/Mercedes2031.mp4" type="video/mp4">
+				</video>
+				<div class="container h-100">
+					<div class="d-flex text-center h-100">
+						<div class="my-auto w-100 text-white">
+							<h1 class="display-3">Showroom</h1>
+							<!-- <h2>Buy High-Specification Cars For Less Online</h2> -->
+							
+							<div id="typed-strings">
+								<p>Buy High-Specification Cars For Less Online</p>
+								<p>Audi</p>
+								<p>BMW</p>
+								<p>Lexus</p>
+								<p>Mercedes</p>
+								<p>Range Rover</p>
+								<p>Tesla</p>
+							</div>
+							<span id="typed"></span>
+							<script>
+								var typed = new Typed('#typed', {
+									stringsElement: '#typed-strings',
+									loop: true,
+									startDelay: 500,
+									typeSpeed: 50,
+									backSpeed: 35
+								});
+							</script>
+							
+						</div>
 					</div>
 				</div>
-			</section>
+			</header>
+		</section>
+		
+			
+		<!-- <section id="hero">
+			<div class="box alt">
+				<div class="row gtr-uniform gtr-50">
+					<div class="col-12"><span class="image fit"><img src="images/hero-1.png" alt="" /></span></div>
+				</div>
+			</div>
+		</section> -->
 
 		<!-- One -->
 			<section id="one" class="main style1">
 				<div class="container">
 					<div class="row gtr-150">
+						<div class="col-6 col-12-medium imp-medium">
+							<span class="image fit"><img src="images/hero-1.png" alt="" /></span>
+						</div>
 						<div class="col-6 col-12-medium">
-							<header class="major">
-								<h2>Lower Costs</h2>
-							</header>
-							<p>Road cars are up to 20% cheaper for the equivalent model and year in the UK. Calculate the cost of your car in Euro, file paperwork and pay import duty in minutes online.</p>
+							<!-- <header class="major"> -->
+								<h2>Find Your Ideal Car Quickly</h2>
+							<!-- </header> -->
+							<p>Browse the best range of cars available, easily.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="two" class="main style1">
+				<div class="container">
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<!-- <header class="major"> -->
+								<h2>Lower Your Costs</h2>
+							<!-- </header> -->
+							<p>UK Road cars have higher specifications and cost less compared to Irish cars. Calculate the total cost of your car in Euro including Vehicle Registration Tax (VRT), registration fees and transport in minutes online.</p>
 						</div>
 						<div class="col-6 col-12-medium imp-medium">
 							<span class="image fit"><img src="images/landing/adult-africa-african-1089550.jpg" alt="" /></span>
@@ -55,30 +99,30 @@
 				</div>
 			</section>
 
-			<section id="two" class="main style1">
+			<section id="three" class="main style1">
 				<div class="container">
 					<div class="row gtr-150">
 						<div class="col-6 col-12-medium imp-medium">
 							<span class="image fit"><img src="images/landing/charts-computer-data-669615.jpg" alt="" /></span>
 						</div>
 						<div class="col-6 col-12-medium">
-							<header class="major">
+							<!-- <header class="major"> -->
 								<h2>Verified Owners</h2>
-							</header>
+							<!-- </header> -->
 							<p>Secure and trustworthy transactions with verified owners and vehicle background checks. We remove the risk of a bad transaction.</p>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section id="three" class="main style1">
+			<section id="four" class="main style1">
 				<div class="container">
 					<div class="row gtr-150">
 						<div class="col-6 col-12-medium">
-							<header class="major">
+							<!-- <header class="major"> -->
 								<h2>On-Demand Chauffeur</h2>
-							</header>
-							<p>Your time is precious. Our chauffeur service inspects your car, collects it and delivers to your door within Ireland.</p>
+							<!-- </header> -->
+							<p>Your time is precious. Our chauffeur service inspects, collects and delivers your car to your door within Ireland.</p>
 						</div>
 						<div class="col-6 col-12-medium imp-medium">
 							<span class="image fit"><img src="images/landing/adult-automotive-blur-13861.jpg" alt="" /></span>
@@ -87,11 +131,11 @@
 				</div>
 			</section>
 			
-			<section id="four" class="main style1 special">
+			<section id="five" class="main style1 special">
 				<div class="container">
-					<header class="major">
+					<!-- <header class="major"> -->
 						<h2>How It Works</h2>
-					</header>
+					<!-- </header> -->
 					<p><b>Find, Buy and Import</b> Your Ideal Roadcar Online</p>
 					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
@@ -166,11 +210,11 @@
 				</div>
 			</section> -->
 
-			<section id="five" class="main style2 special">
+			<section id="six" class="main style2 special">
 				<div class="container">
-					<header class="major">
+					<!-- <header class="major"> -->
 						<h2>Get Early Access</h2>
-					</header>
+					<!-- </header> -->
 					<p>Beta Version</p>
 					<section>
 						
@@ -244,6 +288,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 	</body>
 </html>

@@ -2885,6 +2885,9 @@ input, select, textarea {
 				color: #ffffff;
 			}
 
+.modal-body {
+	background-color: steelblue;
+}			
 /* Header */
 	
 	#header {
@@ -3119,7 +3122,6 @@ header {
 	max-width: 500px;
 	margin: 20px auto;
   }
-
 
 /* Footer */
 
